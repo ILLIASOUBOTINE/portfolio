@@ -1,8 +1,5 @@
 <?php
-// $arr = array(array("title"=>"Title1","prix"=>"50$"),
-// array("title"=>"Title2","prix"=>"51$"),
-// array("title"=>"Title3","prix"=>"52$"),
-// array("title"=>"Title4","prix"=>"53$"),);
+
 
 $arr = array(
     array(
