@@ -1,8 +1,4 @@
-<!-- <?php
-    // $page = $_GET['page'];
-    // // echo $page;
-    // var_dump($_GET);
-?> -->
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -22,8 +18,12 @@
 
         <?php
         
-         
+        $lang = $_SESSION['lang'];
+       
         include 'common/header.php';
+       
+         
+       
         // <!-- Navigation-->
         
         
@@ -60,8 +60,13 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
         </script>
         <!-- Core theme JS-->
-        <!-- <script src="js/scripts.js"></script> -->
+        
     </div>
+    <script>
+        var language = "<?=$lang ?>"
+    </script>
+
+    <script src="main.js"></script>
 </body>
 
 </html>

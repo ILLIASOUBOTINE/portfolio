@@ -1,9 +1,18 @@
 <?php
-    // $page = filter_input(INPUT_GET, "page");
-    $page = $_GET['page'];   
+    session_start();
     
-    // $path = $_SERVER['REQUEST_URI'];
-    // $path = parse_url($path);
-    // $path = preg_split("/[\/.]/", $path["path"])[1];
+   
+    $page = $_GET['page']; 
+    if (!isset($_SESSION['lang'])) {
+        $_SESSION['lang'] = 'en';
+    }
+
+    if (isset($_GET['lang'])){
+        $_SESSION['lang'] = $_GET['lang'];
+       
+    }
+    
+    
+    
     include ('common/template.php');
 ?>

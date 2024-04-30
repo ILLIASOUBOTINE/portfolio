@@ -49,9 +49,7 @@ include 'content/extramenu_content.php';
             <div class=" card my-3 order-1">
                 <div class="card-body">
                     <h5 class="card-title text-center" id="parcours">Parcours professionnel</h5>
-                    <p class="card-text ">
-                        <b>2017 - 2022</b> Militaire - Légion Etrangère .
-                    </p>
+                    
                     <p class="card-text ">
                         <b>2014 - 2017</b> Ingénieur civil – Biélorussie.
                     </p>

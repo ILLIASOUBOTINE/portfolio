@@ -1,5 +1,3 @@
-
-
 .bg_header {
   transform: scale(1.2);
 }
@@ -11,15 +9,45 @@
 .extra_menu {
   width: 100%;
   height: 70px;
- cursor: pointer;
+  cursor: pointer;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   overflow-x: auto;
- background-color: rgb(221, 221, 221);
+  background-color: rgb(221, 221, 221);
 }
 
 .extra_menu a:hover {
   color: rgb(149, 137, 0);
+}
+
+.container_lang {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.a_lang {
+  color: rgb(103, 101, 101);
+  cursor: pointer;
+
+  text-decoration: none;
+}
+
+.a_lang:hover {
+  color: rgb(20, 19, 19) !important;
+  transform: scale(1.1);
+}
+
+.active_lang {
+  color: rgb(20, 19, 19) !important;
+}
+
+.a_footer {
+  cursor: pointer;
+}
+
+.a_footer:hover {
+  transform: scale(1.1);
 }
